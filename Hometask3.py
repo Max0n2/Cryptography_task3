@@ -1,6 +1,6 @@
-from ECurve import ECurve, ECPoint
+from Curve import Curve, Point
 
-curve = ECurve(3, 4)
+curve = Curve(3, 4)
 
 G = curve.BasePointGGet()
 G.PrintECPoint()
